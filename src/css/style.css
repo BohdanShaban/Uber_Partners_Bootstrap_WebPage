@@ -37,4 +37,68 @@ nav {
 .subheader {
   height: 84px;
   background-color: rgba(0, 0, 0, .6);
+  /* BG Has Opacity BUT NOT Content */
+}
+
+/* 1-st COL */
+.subheader .subheader_logo {
+  display: block;
+  /* For Margins & Paddings (a - InLine Elem) */
+  max-width: 100%;
+  /* If LoboImg Will Change - Evrthing Will Be Ok */
+  margin-top: 16px;
+}
+
+.subheader .subheader_official {
+  margin-top: 6px;
+  opacity: 0.5;
+  color: #ffffff;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+/* 2-nd COL */
+.subheader .subheader_call {
+  text-align: right;
+  margin-top: 19px;
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 300;
+}
+
+.subheader .subheader_phone {
+  display: block;
+  margin-top: 8px;
+
+  text-align: right;
+  line-height: 12px;
+
+  color: #ffffff;
+  font-size: 22px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+/* 3-d COL */
+.subheader .subheader_btn {
+  min-width: 172px;
+  min-height: 46px;
+
+  display: block;
+  margin-top: 19px;
+  padding: 0 15px;
+
+  cursor: pointer;
+  box-shadow: inset 0 -3px 0 rgba(0, 0, 0, 0.12);
+
+  border: none;
+  border-radius: 4px;
+  background-image: linear-gradient(to top, #1eacc7 0%, #4ce2ff 100%);
+
+  color: #fff;
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.21);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  text-transform: uppercase;
 }
