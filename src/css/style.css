@@ -2,6 +2,8 @@ html {
   font-family: 'Roboto', sans-serif;
 }
 
+
+/* HEADER */
 nav {
   height: 50px;
   background-color: #212121;
@@ -28,4 +30,11 @@ nav {
   color: #ffffff;
   font-size: 15px;
   font-weight: 300;
+}
+
+
+/* SUB_HEADER */
+.subheader {
+  height: 84px;
+  background-color: rgba(0, 0, 0, .6);
 }
