@@ -19,6 +19,9 @@ $second-color: #ff5656
   text-transform: uppercase
   text-align: center
   z-index: 2
+  &_white
+    background-color: #fff
+    color: #000
 
 .title
   position: relative
@@ -31,6 +34,8 @@ $second-color: #ff5656
   text-transform: uppercase
   text-align: center
   z-index: 2
+  &_white
+    color: #fff
 
 .subtitle
   position: relative
@@ -40,6 +45,8 @@ $second-color: #ff5656
   font-weight: 400
   text-align: center
   z-index: 2
+  &_white
+    color: #fff
 
 /* HEADER */
 /*   * * * - Is A Code For Sticky Top-Menu */
@@ -242,3 +249,29 @@ nav
       margin: 0 auto
       border-radius: 100%
       cursor: pointer
+
+// 4-th SECTION
+.choice
+  position: relative
+  min-height: 895px
+  padding: 57px 0 138px 0
+  background: url('../img/bg/mobile_app.png') center (center / cover) no-repeat
+  &_img
+    position: relative
+    display: block
+    margin: 56px auto 0 auto
+    z-index: 2
+  &_descr
+    text-align: center
+    color: #222222
+    font-size: 17px
+    font-weight: 300
+    line-height: 24px
+  .black
+    position: absolute
+    top: 0
+    left: 0
+    height: 499px
+    width: 100%
+    background-color: #070716
+    z-index: 1
